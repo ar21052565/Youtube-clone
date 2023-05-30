@@ -87,6 +87,16 @@
 
     column-gap: 16px;
 }
+@media (max-width:850px){
+    .shorts-grid{
+    grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+ @media (min-width:851px){
+    .shorts-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
 .shorts-title {
     margin-top: 0;
     margin-bottom: 12px;
